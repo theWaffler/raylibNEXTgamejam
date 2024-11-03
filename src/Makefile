@@ -70,35 +70,35 @@ OBJS = $(patsubst %.cpp, %.o, $(PROJECT_SOURCE_FILES))
 
 # Default target entry
 all:
-	$(MAKE) $(MAKEFILE_TARGET)
+    $(MAKE) $(MAKEFILE_TARGET)
 
 # Project target defined by PROJECT_NAME
 $(PROJECT_NAME): $(OBJS)
-	$(CXX) -o $(PROJECT_BUILD_PATH)/$(PROJECT_NAME)$(EXT) $(OBJS) $(CXXFLAGS) $(INCLUDE_PATHS) $(LDFLAGS) $(LDLIBS) -D$(PLATFORM)
+    $(CXX) -o $(PROJECT_BUILD_PATH)/$(PROJECT_NAME)$(EXT) $(OBJS) $(CXXFLAGS) $(INCLUDE_PATHS) $(LDFLAGS) $(LDLIBS) -D$(PLATFORM)
 
 # Compile source files
 %.o: %.cpp
-	$(CXX) -c $< -o $@ $(CXXFLAGS) $(INCLUDE_PATHS) -D$(PLATFORM)
+    $(CXX) -c $< -o $@ $(CXXFLAGS) $(INCLUDE_PATHS) -D$(PLATFORM)
 
 # Clean everything
 clean:
 ifeq ($(PLATFORM),PLATFORM_DESKTOP)
     ifeq ($(PLATFORM_OS),WINDOWS)
-	del *.o *.exe /s
+    del *.o *.exe /s
     endif
     ifeq ($(PLATFORM_OS),LINUX)
-	find . -type f -executable -delete
-	rm -fv *.o
+    find . -type f -executable -delete
+    rm -fv *.o
     endif
     ifeq ($(PLATFORM_OS),OSX)
-	rm -f *.o external/*.o $(PROJECT_NAME)
+    rm -f *.o external/*.o $(PROJECT_NAME)
     endif
 endif
 ifeq ($(PLATFORM),PLATFORM_DRM)
-	find . -type f -executable -delete
-	rm -fv *.o
+    find . -type f -executable -delete
+    rm -fv *.o
 endif
 ifeq ($(PLATFORM),PLATFORM_WEB)
-	del *.o *.html *.js
+    del *.o *.html *.js
 endif
-	@echo Cleaning done
+    @echo Cleaning done
