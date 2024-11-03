@@ -1,6 +1,6 @@
 ## Terminal Inflitrator
 
-![$(Game Title)](screenshots/screenshot000.png "$(Game Title)")
+![$(Game Title)](screenshots/title.png "$(Game Title)")
 
 ### Description
 
@@ -20,7 +20,7 @@ Keyboard/Mouse:
 
 ### Screenshots
 
-_TODO: Show your game to the world, animated GIFs recommended!._
+_TODO: add giffffffff here
 
 ### Developer
 
@@ -28,9 +28,7 @@ _TODO: Show your game to the world, animated GIFs recommended!._
 
 ### Links
 
- - YouTube Gameplay: $(YouTube Link)
- - itch.io Release: $(itch.io Game Page)
- - Steam Release: $(Steam Game Page)
+ - https://itch.io/jam/raylib-next-gamejam/rate/3084868
 
 ### License
 
@@ -38,4 +36,4 @@ This project sources are licensed under an unmodified zlib/libpng license, which
 
 $(Additional Licenses)
 
-*Copyright (c) $(Year) $(User Name) ($(User Twitter/GitHub Name))*
+*Copyright (c) 2024 theWaffler*
