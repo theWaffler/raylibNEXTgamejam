@@ -4,30 +4,27 @@
 
 ### Description
 
-$(Your Project Description)
+I wanted to see what a spy thriller/hacking game would look like if it was made in an era of "Oregon Trail". Low graphics, and mostly just text.
 
 ### Features
 
- - $(Project Feature 01)
- - $(Project Feature 02)
- - $(Project Feature 03)
+ - Mimic terminal interface
 
 ### Controls
 
 Keyboard/Mouse:
- - $(Project Controls 01)
- - $(Project Controls 02)
- - $(Project Controls 03)
+ - ARROW KEY UP / ARROW KEY DOWN
+ - MOUSE LEFT CLICK
+ - SPACE BAR
+ - Keyboard
 
 ### Screenshots
 
 _TODO: Show your game to the world, animated GIFs recommended!._
 
-### Developers
+### Developer
 
- - $(Developer 01) - $(Role/Tasks Developed)
- - $(Developer 02) - $(Role/Tasks Developed)
- - $(Developer 03) - $(Role/Tasks Developed)
+ - $(Developer 01) - Jay
 
 ### Links
 
