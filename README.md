@@ -1,4 +1,4 @@
-## $(Game Title)
+## Terminal Inflitrator
 
 ![$(Game Title)](screenshots/screenshot000.png "$(Game Title)")
 
