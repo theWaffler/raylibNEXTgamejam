@@ -1,19 +1,15 @@
-# TODO 
+# TODO
 
-* [ ] Color pallette: 2 Bit Matrix (https://lospec.com/palette-list/2-bit-matrix)
-    * 0: #f2fff2
-    * 1: #add9bc 
-    * 2: #5b8c7c
-    * 3: #0d1a1a  
-    
-* [ ] Define narrative
+* [x] Color pallette: 2 colors - black and green
 
-* [ ] Define game play 
+* [x] Define narrative
 
-* [ ] Code and Cry
+* [x] Define game play
 
-* [ ] Test and Cry
+* [x] Code and Cry
 
-* [ ] Repeat
+* [x] Test and Cry
+
+* [x] Repeat
 
 * [ ] Profit
