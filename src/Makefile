@@ -29,10 +29,10 @@
 PLATFORM              ?= PLATFORM_DESKTOP
 
 # Define project variables
-PROJECT_NAME          ?= raylib_game
+PROJECT_NAME          ?= terminal_infiltrator
 PROJECT_VERSION       ?= 1.0
 PROJECT_BUILD_PATH    ?= .
-PROJECT_SOURCE_FILES  ?= raylib_game.c
+PROJECT_SOURCE_FILES  ?= main.cpp Game.cpp Terminal.cpp Directory.cpp File.cpp PopupDialog.cpp BreachProtocol.cpp
 
 # raylib library variables
 RAYLIB_SRC_PATH       ?= C:/raylib/raylib/src
